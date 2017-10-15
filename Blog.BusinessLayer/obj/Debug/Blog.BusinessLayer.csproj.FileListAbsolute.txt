@@ -1,0 +1,16 @@
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.BusinessLayer\bin\Debug\Blog.BusinessLayer.dll.config
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.BusinessLayer\bin\Debug\Blog.BusinessLayer.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.BusinessLayer\bin\Debug\Blog.BusinessLayer.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.BusinessLayer\bin\Debug\Blog.Entity.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.BusinessLayer\bin\Debug\Blog.Entity.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.BusinessLayer\obj\Debug\Blog.BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.BusinessLayer\obj\Debug\Blog.BusinessLayer.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.BusinessLayer\obj\Debug\Blog.BusinessLayer.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.BusinessLayer\bin\Debug\Blog.DataAccessLayer.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.BusinessLayer\bin\Debug\Blog.DataAccessLayer.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.BusinessLayer\bin\Debug\System.Web.Mvc.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.BusinessLayer\bin\Debug\System.Web.Mvc.xml

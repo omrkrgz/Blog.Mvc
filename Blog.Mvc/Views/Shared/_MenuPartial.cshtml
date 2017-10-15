@@ -1,0 +1,43 @@
+﻿@using Blog.Entity
+@using Blog.BusinessLayer
+@{ 
+    CategoryManager cm = new CategoryManager();
+    List<Category> listCat = cm.GetAllCategory();
+}
+
+
+<div id="navarea">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav custom_nav">
+                    <li class=""><a href="/Home/Index">Anasayfa</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="" data-toggle="dropdown" role="button" aria-expanded="false">Kategoriler</a>
+                        <ul class="dropdown-menu" role="menu">
+
+                            @foreach (Category item in listCat)
+                            {
+                                <li><a href="/Home/GetByCategory/@item.Id">@item.Name</a></li>
+
+                            }
+
+
+                        </ul>
+                    </li>
+
+                    <li><a href="pages/contact.html">ILETISIM</a></li>
+                    <li><a href="/Home/Register">Kayıt Ol</a></li>
+                    <li><a href="/Home/Login">Üye GIrIsI</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+    </nav>
+</div>
+
+

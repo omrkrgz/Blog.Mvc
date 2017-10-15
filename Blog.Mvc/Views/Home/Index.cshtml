@@ -1,0 +1,198 @@
+﻿
+@using Blog.Entity
+@model List<Content>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@Html.Partial("_MenuPartial")
+
+<section id="mainContent">
+    <div class="content_top">
+        <div class="row">
+            <div class="col-lg-offset-2 col-lg-8 col-md-8 col-sm8 col-lg-offset-2">
+                <div class="latest_slider">
+                    <div class="slick_slider">
+                        <div class="single_iteam">
+                            <img src="/images/550x330x1.jpg" />
+                            <h2><a class="slider_tittle" href="pages/single.html">Fusce eu nulla semper porttitor felis sit amet</a></h2>
+                        </div>
+                        <div class="single_iteam">
+                            <img src="images/550x330x2.jpg" alt="">
+                            <h2><a class="slider_tittle" href="pages/single.html">Fusce eu nulla semper porttitor felis sit amet</a></h2>
+                        </div>
+                        <div class="single_iteam">
+                            <img src="images/550x330x3.jpg" alt="">
+                            <h2><a class="slider_tittle" href="pages/single.html">Fusce eu nulla semper porttitor felis sit amet</a></h2>
+                        </div>
+                        <div class="single_iteam">
+                            <img src="images/550x330x4.jpg" alt="">
+                            <h2><a class="slider_tittle" href="pages/single.html">Fusce eu nulla semper porttitor felis sit amet</a></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="content_top">
+      <div class="row" >
+          <div class="col-lg-6 col-md-6 col-sm6">
+              <div class="content_top_right">
+                  <ul class="featured_nav wow fadeInDown">
+
+                     @foreach (Content item in Model)
+                     {
+                        <li>
+                            <img src="images/300x215x1.jpg" alt="">
+                            <div class="title_caption"><a href="pages/single.html">@item.Title</a></div>
+                        </li>
+                     }
+                       
+                     
+                  </ul>
+              </div>
+          </div>
+          @*<div class="col-lg-6 col-md-6 col-sm6">
+              <div class="content_top_right">
+                  <ul class="featured_nav wow fadeInDown">
+                      <li>
+                          <img src="images/300x215x1.jpg" alt="">
+                          <div class="title_caption"><a href="pages/single.html">Sed luctus semper odio aliquam rhoncus</a></div>
+                      </li>
+                      <li>
+                          <img src="images/300x215x2.jpg" alt="">
+                          <div class="title_caption"><a href="pages/single.html">Sed luctus semper odio aliquam rhoncus</a></div>
+                      </li>
+                      <li>
+                          <img src="images/300x215x3.jpg" alt="">
+                          <div class="title_caption"><a href="pages/single.html">Sed luctus semper odio aliquam rhoncus</a></div>
+                      </li>
+                      <li>
+                          <img src="images/300x215x4.jpg" alt="">
+                          <div class="title_caption"><a href="pages/single.html">Sed luctus semper odio aliquam rhoncus</a></div>
+                      </li>
+                  </ul>
+              </div>
+          </div>*@
+
+      </div>
+    </div>
+    
+    <div class="content_bottom">
+     
+        <div class="col-md-12 col-md-12">
+            <div class="content_bottom_right">
+                <div class="single_bottom_rightbar">
+                    <h2>Recent Post</h2>
+                    <ul class="small_catg popular_catg wow fadeInDown">
+                        <li>
+                            <div class="media wow fadeInDown">
+                                <a href="#" class="media-left"><img alt="" src="images/112x112.jpg"> </a>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4>
+                                    <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="media wow fadeInDown">
+                                <a href="#" class="media-left"><img alt="" src="images/112x112.jpg"> </a>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4>
+                                    <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="media wow fadeInDown">
+                                <a href="#" class="media-left"><img alt="" src="images/112x112.jpg"> </a>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4>
+                                    <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="single_bottom_rightbar">
+                    <ul role="tablist" class="nav nav-tabs custom-tabs">
+                        <li class="active" role="presentation"><a data-toggle="tab" role="tab" aria-controls="home" href="#mostPopular">Most Popular</a></li>
+                        <li role="presentation"><a data-toggle="tab" role="tab" aria-controls="messages" href="#recentComent">Recent Comment</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="mostPopular" class="tab-pane fade in active" role="tabpanel">
+                            <ul class="small_catg popular_catg wow fadeInDown">
+                                <li>
+                                    <div class="media wow fadeInDown">
+                                        <a class="media-left" href="#"><img src="images/112x112.jpg" alt=""></a>
+                                        <div class="media-body">
+                                            <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4>
+                                            <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="media wow fadeInDown">
+                                        <a class="media-left" href="#"><img src="images/112x112.jpg" alt=""></a>
+                                        <div class="media-body">
+                                            <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4>
+                                            <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="media wow fadeInDown">
+                                        <a class="media-left" href="#"><img src="images/112x112.jpg" alt=""></a>
+                                        <div class="media-body">
+                                            <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4>
+                                            <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="recentComent" class="tab-pane fade" role="tabpanel">
+                            <ul class="small_catg popular_catg">
+                                <li>
+                                    <div class="media wow fadeInDown">
+                                        <a class="media-left" href="#"><img src="images/112x112.jpg" alt=""></a>
+                                        <div class="media-body">
+                                            <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4>
+                                            <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="media wow fadeInDown">
+                                        <a class="media-left" href="#"><img src="images/112x112.jpg" alt=""></a>
+                                        <div class="media-body">
+                                            <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4>
+                                            <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="media wow fadeInDown">
+                                        <a class="media-left" href="#"><img src="images/112x112.jpg" alt=""></a>
+                                        <div class="media-body">
+                                            <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4>
+                                            <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+@Html.Partial("_FooterPartial")
+

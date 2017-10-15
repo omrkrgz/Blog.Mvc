@@ -1,0 +1,71 @@
+﻿@using Blog.Entity.ViewModels
+
+@model RegisterViewModel
+@{
+    ViewBag.Title = "Register";
+}
+
+<style type="text/css">
+    .validation-summary-errors{
+        background-color:orange;
+        color:white;
+     
+        border-radius:10px 4px 5px 6px;
+    }
+
+    .validation-summary-errors ul {
+        text-align:center;
+        
+       
+    }
+  
+</style>
+<section id="ContactContent">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="contact_area">
+
+                <div class="contact_bottom">
+                    <div style="margin-top:-10px;" class="contact_us wow fadeInRightBig">
+                        <h2>Kayıt Formu</h2>
+                        @using (Html.BeginForm())
+                        {
+                            <form action="#" class="contact_form">
+                                
+  
+                                @Html.ValidationSummary(false)
+        
+                                <span class="glyphicon glyphicon-user"> </span>
+                                @Html.TextBoxFor(x => x.Name, new { @class = "form-control", placeholder = "Adınız giriniz" })
+
+                                <span class="glyphicon glyphicon-user"> </span>
+                                @Html.TextBoxFor(x => x.Surname, new { @class = "form-control", placeholder = "Soyadınızı giriniz" })
+
+
+                                <span class="glyphicon glyphicon-user"> </span>
+                                @Html.TextBoxFor(x => x.Username, new { @class = "form-control", placeholder = "Kullanıcı Adınızı giriniz" })
+
+
+                                <span class="glyphicon glyphicon-envelope"> </span>
+                                @Html.TextBoxFor(x => x.Email, new { @class = "form-control", placeholder = "E-mail adresinizi giriniz"})
+
+
+                                <span class="glyphicon glyphicon-lock"> </span>
+                                @Html.TextBoxFor(x => x.Password, new { @class = "form-control", placeholder = "Şifrenizi giriniz", type = "password" })
+
+
+                                <span class="glyphicon glyphicon-lock"> </span>
+                                @Html.TextBoxFor(x => x.Repassword, new { @class = "form-control", placeholder = "Şifrenizi tekrar giriniz", type = "password" })
+                                <br />
+                                <button class="btn btn-success btn-block" type="submit">
+                                    Kayıt Ol
+                                </button>
+                            </form>
+                        }
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

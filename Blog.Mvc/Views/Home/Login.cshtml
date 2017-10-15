@@ -1,0 +1,43 @@
+﻿@using Blog.Entity.ViewModels
+@model LoginViewModel
+
+@{
+    ViewBag.Title = "Login";
+}
+
+@using (@Html.BeginForm())
+{
+    <section id="ContactContent">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="contact_area">
+
+
+                    <div class="contact_bottom">
+                        <div class="contact_us wow fadeInRightBig">
+                            <h2 style="font:32px Arial bold;"> <bold>Giriş Yapınız</bold></h2>
+                            <form action="#" class="contact_form">
+
+
+                                <span class="glyphicon glyphicon-user"> </span>
+                                @Html.TextBoxFor(x => x.Username, new { @class = "form-control", placeholder = "Kullanıcı Adınızı giriniz" })
+
+                                <span class="glyphicon glyphicon-lock"> </span>
+                                @Html.TextBoxFor(x => x.Password, new { @class = "form-control", placeholder = "Kullanıcı Adınızı giriniz", type = "password" })
+                                <br />
+
+                                <button class="btn btn-primary btn-block"  type="submit"> Giriş Yap
+                                </button> 
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+}
+
+

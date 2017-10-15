@@ -1,0 +1,14 @@
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.DataAccessLayer\bin\Debug\Blog.DataAccessLayer.dll.config
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.DataAccessLayer\bin\Debug\Blog.DataAccessLayer.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.DataAccessLayer\bin\Debug\Blog.DataAccessLayer.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.DataAccessLayer\bin\Debug\Blog.Entity.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.DataAccessLayer\bin\Debug\Blog.Entity.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.DataAccessLayer\obj\Debug\Blog.DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.DataAccessLayer\obj\Debug\Blog.DataAccessLayer.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.DataAccessLayer\obj\Debug\Blog.DataAccessLayer.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.DataAccessLayer\obj\Debug\Blog.DataAccessLayer.Migrations.a1.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\Blog.Mvc\Blog.DataAccessLayer\obj\Debug\Blog.DataAccessLayer.csproj.GenerateResource.Cache
